@@ -1,7 +1,7 @@
 # Multimodal-RAG-System-Chat-with-PDFs
 An AI-powered Multimodal Retrieval-Augmented Generation (RAG) system that enables users to chat with PDFs by extracting, indexing, and reasoning over text and images using LLMs, vector databases, and an interactive Gradio interface
 
-# 🚀 1. Project Overview
+#  1. Project Overview
 
 Large Language Models (LLMs) such as OpenAI models are powerful but limited because:
 
@@ -21,11 +21,11 @@ Generates accurate answers using an LLM
 
 The result is a system that significantly reduces hallucinations and improves factual grounding.
 
-# 🏗️ 2. System Architecture
+#  2. System Architecture
 <img width="1536" height="1024" alt="RAG" src="https://github.com/user-attachments/assets/6cea7eea-9247-46b8-b213-235b9e910bdd" />
 
-# 🧠 3. Core Technologies
-# 🔹 Frameworks & Libraries
+#  3. Core Technologies
+#  Frameworks & Libraries
 
 Python
 
@@ -42,7 +42,7 @@ Unstructured – PDF parsing
 Gradio – Web interface
 
 
-# 🔍 4. Detailed Technical Explanation
+#  4. Detailed Technical Explanation
 4.1 PDF Processing
 When a user uploads a PDF:
 
@@ -98,11 +98,11 @@ Persistent storage
 Easy LangChain integration
 
 
-# 📊 5. Data Flow Summary
+#  5. Data Flow Summary
 PDF → Extract → Chunk → Embed → Store in Chroma
 User Query → Embed → Retrieve → Send to LLM → Generate Answer
 
-# 🎯 6. Engineering Decisions
+#  6. Engineering Decisions
 Why RAG instead of fine-tuning?
 
 Cheaper
@@ -122,7 +122,7 @@ Works beyond keyword matching
 More accurate for natural language
 
 
-# 🔒 7. Security & Best Practices
+#  7. Security & Best Practices
 
 API keys stored in .env
 
@@ -135,7 +135,7 @@ Clean project structure
 Reproducible environment via requirements.txt
 
 
-# 📈 8. Future Enhancements
+#  8. Future Enhancements
 
 Hybrid search (BM25 + vector)
 
@@ -150,7 +150,7 @@ Multi-document indexing
 Authentication layer
 
 
-# 🏆 9. What This Project Demonstrates
+#  9. What This Project Demonstrates
 
 Advanced RAG implementation
 
@@ -165,7 +165,7 @@ AI system architecture thinking
 Production-ready AI engineering skills
 
 
-# 👨‍💻 Author
+# 10 Author
 
 Mohammed Aashad
 BSc (Hons) Computing Graduate
@@ -175,7 +175,7 @@ GitHub: (Add Link)
 LinkedIn: (Add Link)
 
 
-# 📌 Conclusion
+#  Conclusion
 
 This project is a practical implementation of modern AI architecture used in:
 
